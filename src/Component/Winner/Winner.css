@@ -1,0 +1,40 @@
+.winner-container{
+    background: rgba(255, 255, 255, 0.65);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+
+}
+.text{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    font-size:30px;
+    text-align: center;
+}
+.text div button{
+    width: 140px;
+    height: 40px;
+    background: #3d4250;
+    border-radius: 5px;
+    border: transparent;
+    color: white;
+    font-size: 15px;
+    font-family: cursive, Helvetica, sans-serif;
+    cursor: pointer;
+}
+@media(max-width: 384px) {
+    .text{
+        font-size: 25px;
+    }
+    .text div button{
+        width: 100px;
+        height: 28px;
+        border-radius: 4px;
+        font-size: 15px;
+    }
+}
